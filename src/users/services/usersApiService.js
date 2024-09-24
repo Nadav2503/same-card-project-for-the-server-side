@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getToken } from './localStorageService';
 
-const apiUrl = "http://localhost:8181/users";
+const apiUrl = "https://cardsserver-p9gr.onrender.com/users";
 
 export const login = async (userLogin) => {
     try {
